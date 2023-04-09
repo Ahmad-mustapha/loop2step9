@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+html{
+    background-color: #4677f6;
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-color: #fff;
+    width: 23rem;
+    height: 83vh;
+    margin: 3rem auto;
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.nav-img{
+    opacity: 40%;
+    width: 1.2rem;
+    transition: .1s ease-in;
+}
+.nav img:hover{
+    opacity: 100%;
+}
+.nav p{
+    font-size: .69rem;
+    text-transform: uppercase;
+}
+.color{
+    background-color: rgba(70, 119, 2466, .8);
+    width: 20rem;
+    height: 6rem;
+}
+.dis-time{
+    width: 23rem;
+    height: 5.8rem;
+    background: url('./img/map.png') #3e6cf6;
+    background-blend-mode: color-burn;
+    transform: scale(1.07, 1.2);
+    border-radius: 4px;
+    opacity: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    font-size: .65rem;
+}
+.dis-time img{
+    width: .95rem;
+    position: relative;
+    left: -2rem;
+}
+.left-circle, .right-circle{
+    width: .3rem;
+    height: .3rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.first-line{
+    width: 3.5rem;
+    height: .12rem;
+    background-color: #fff;
+}
+.both-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-line{
+    width: 7rem;
+    height: .05rem;
+    background-color: #fff;
+}
+.circle-line, .second-line{
+    display: flex;
+    align-items: center;
+}
+.overall{
+    display: grid;
+    /* place-items: center; */
+    /* padding-top: .7rem; */
+}
+.all{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.time-dis{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1rem;
+    font-size: .7rems;
+}
+.map{
+    position: absolute;
+    left: 15.5rem;
+    background-color: #4677f6;
+    border-radius: 3px;
+    padding: .5rem .7rem;
+}
+.map a{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    color: #fff;
+    font-size: .7rem;
+}
+.map:hover{
+    background-color: rgba(70, 119, 246, .92);
+}
+.location{
+    width: 1rem;
+}
+.section2{
+    padding: 2.5rem 1.5rem;
+}
